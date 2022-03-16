@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/github/license/lucasvssouza/react-task-list.svg"></img>
   </a>
   <a href="https://github.com/lucasvssouza/react-calculator/releases/tag/v1.0">
-   <img src="https://badgen.net/github/release/lucasvssouza/react-calculator/stable"</img>
+   <img src="https://badgen.net/github/release/lucasvssouza/react-calculator"</img>
   </a>
   <a href="">
    <img src="https://badgen.net/github/stars/lucasvssouza/react-calculator"</img>
