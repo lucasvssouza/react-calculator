@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="https://github.com/lucasvssouza/react-task-list/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/lucasvssouza/react-task-list.svg"></img>
+  <a href="https://github.com/lucasvssouza/react-calculator/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/license/lucasvssouza/react-calculator.svg"></img>
   </a>
   <a href="https://github.com/lucasvssouza/react-calculator/releases/tag/v1.0">
    <img src="https://badgen.net/github/release/lucasvssouza/react-calculator"</img>
