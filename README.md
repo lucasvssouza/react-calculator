@@ -15,4 +15,4 @@
 Projeto 
 
 ## ReactJS hooks used in the project
-- [useState](https://pt-br.reactjs.org/docs/hooks-state.html)
+- [useState](https://reactjs.org/docs/hooks-state.html)
