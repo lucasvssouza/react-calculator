@@ -10,9 +10,7 @@
   </a>
 </div>
 
-
 # Calculator in ReactJS
-Projeto 
-
+![image](https://user-images.githubusercontent.com/43560204/158678571-88fec7d3-120e-4714-89e5-973159762445.png)
 ## ReactJS hooks used in the project
 - [useState](https://reactjs.org/docs/hooks-state.html)
