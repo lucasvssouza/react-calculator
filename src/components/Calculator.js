@@ -7,16 +7,21 @@ export const Calculator = () => {
   const [getOperand, setOperand] = useState("");
   const [getResult, setResult] = useState(false);
 
+  /// Função que limpa a calculadora
   function clearData() {
     setPrevious("");
     setCurrent("");
     setOperand("");
   }
+  /// Função que limpa a calculadora
 
+  /// Função que remove o ultimo digito
   function removeData() {
     setCurrent(getCurrent.slice(0, -1));
   }
+  /// Função que remove o ultimo digito
 
+  /// Função que exibe o resultado
   function resultButton() {
     if (
       getOperand === "+" &&
@@ -67,10 +72,11 @@ export const Calculator = () => {
       setResult(true);
     }
   }
+  /// Função que exibe o resultado
 
+  /// Função que identifica o número e salva
   function numberButton(e) {
     var value = getCurrent.toString();
-
     if (
       (value.indexOf(".") === -1 || e.target.innerHTML !== ".") &&
       getResult === false
@@ -84,7 +90,9 @@ export const Calculator = () => {
       setResult(false);
     }
   }
+  /// Função que identifica o número e salva
 
+  /// Função que identifica a operação e mostra o resultado caso já exista uma operação pendente
   function operandButton(e) {
     if (e.target.innerHTML === "+" && getCurrent != null && getCurrent !== "") {
       setCurrent("");
@@ -111,6 +119,7 @@ export const Calculator = () => {
       resultButton();
     }
   }
+  /// Função que identifica a operação e mostra o resultado caso já exista uma operação pendente
 
   return (
     <div className="App">
